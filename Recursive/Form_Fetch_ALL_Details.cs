@@ -19,7 +19,15 @@ namespace Recursive
 
         private void ll_Path_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
+            try
+            {
 
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
 
         private void btn_Start_Click(object sender, EventArgs e)
